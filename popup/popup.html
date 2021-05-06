@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1" />
+        <link rel="stylesheet" href="style.css">
+    </head>
+    <body>
+        <label>Generate for:</label>
+        <div id="domain"></div>
+        <div class="input_wrapper">
+            <label for="username">Username:</label>
+            <input type="text" id="username" name="username" />
+        </div>
+        <div class="input_wrapper">
+            <label for="secret">Custom Secret:</label>
+            <input type="password" id="secret" name="secret" />
+        </div>
+        <div id="feedback"></div>
+        <div class="action_wrapper">
+            <button id="copy"><img src="/images/copy.png"/> Copy</button>
+            <button id="fill"><img src="/images/edit.png"/> AutoFill</button>
+            <a id="clear">Clear input</a>
+        </div>
+        <script type="module" src="popup.js"></script>
+    </body>
+</html>

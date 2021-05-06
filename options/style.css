@@ -1,0 +1,26 @@
+label {
+    box-sizing: border-box;
+    display: inline-block;
+    font-size: 14px;
+    color: #333333;
+    margin-right: 10px;
+}
+
+input {
+    display: inline-flex;
+    width: 200px;
+    border: 1px solid #999999;
+    padding: 0.5em;
+    background: #ffffff;
+    color: #333333;
+    outline: 0;
+    font-size: 14px;
+}
+
+.section_wrapper {
+    display: flex;
+    position: relative;
+    margin-top: 15px;
+    justify-content: flex-start;
+    align-items: center;
+}

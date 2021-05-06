@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <link rel="stylesheet" href="style.css">
+    </head>
+    <body>
+        <div class="section_wrapper">
+            <label for="hashtype">Hash-Algorithm:</label>
+            <select id="hashtype" name="hashtype">
+                <option value="SHA-256">SHA-256</option>
+                <option value="SHA-384">SHA-384</option>
+                <option value="SHA-512">SHA-512</option>
+            </select>
+        </div>
+        <div class="section_wrapper">
+            <label for="globalsecret">Global Secret:</label>
+            <input id="globalsecret" name="globalsecret" type="password">
+        </div>
+        <div class="section_wrapper">
+            <label for="passwordlength">Password length:</label>
+            <input id="passwordlength" name="passwordlength" type="range" min="10" max="64" value="12">
+            <output id="passwordlengthvalue">12</output>
+        </div>
+        <div id="status"></div>
+        <button id="save">Save</button>
+        <script src="options.js"></script>
+    </body>
+</html>
