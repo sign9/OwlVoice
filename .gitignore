@@ -1,0 +1,22 @@
+# Project specifics
+###################
+
+# Other stuff
+#############
+Thumbs.db
+/.metadata/
+tasks/
+.DS*
+._*
+
+# IDE specifics
+###############
+*.sublime-project
+*.sublime-workspace
+.idea/*
+.project
+/nbproject/*
+.settings
+*.swp
+.buildpath
+.vscode
