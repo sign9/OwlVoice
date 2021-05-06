@@ -1,8 +1,8 @@
 {
     "manifest_version": 3,
     "name": "Owl Voice",
-    "version": "1.0.0",
-    "version_name": "1.0.0",
+    "version": "1.2.0",
+    "version_name": "1.2.0",
     "description": "A simple password generator using URL, Username and Secret.\r\nLogo was made by Vexels.com, Icons are made by Gregor Cresnar",
     "icons": {
         "16": "/images/owl_16.png",
@@ -36,5 +36,5 @@
             "js": ["/content/content.js"]
         }
     ],
-    "permissions": ["storage", "tabs", "activeTab", "scripting", "contextMenus"]
+    "permissions": ["storage", "activeTab", "contextMenus"]
 }

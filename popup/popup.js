@@ -36,12 +36,11 @@ chrome.tabs.query({ active: true, currentWindow: true }, tabs => {
     currentTabId = tabs[0].id;
 });
 
-
 /**
  * Get Password from the background.js
  *
- * @param {String} content
- * @param {String} type
+ * @param {string} content
+ * @param {string} type
  * @returns {void}
  */
 async function getPassword(content, type) {
@@ -77,7 +76,7 @@ async function generatePassword(username, customSecret, type) {
 function clearFeedback() {
     setTimeout(() => {
         feedbackElement.innerText = '';
-    }, 2000)
+    }, 4000)
 }
 
 /**
